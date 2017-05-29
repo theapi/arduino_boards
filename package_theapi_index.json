@@ -4,7 +4,10 @@
       "name": "Theapi",
       "maintainer": "Theapi",
       "websiteURL": "https://github.com/theapi",
-      "email": "anon@example.com",
+      "email": "",
+      "help": {
+        "online": ""
+      },
       "platforms": [
         {
           "name": "Barebones AVR Boards (no bootloader)",
