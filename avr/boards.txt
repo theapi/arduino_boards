@@ -1,0 +1,45 @@
+menu.cpu=Processor
+menu.clock=Clock
+
+#
+# ATmega328p
+#
+
+atmega328p.name=ATmega328p
+
+atmega328p.bootloader.tool=arduino:avrdude
+atmega328p.bootloader.unlock_bits=0x3f
+atmega328p.bootloader.lock_bits=0x0f
+
+atmega328p.upload.tool=arduino:avrdude
+atmega328p.upload.maximum_size=32768
+atmega328p.upload.maximum_data_size=2048
+atmega328p.upload.speed=19200
+atmega328p.build.variant=arduino:standard
+atmega328p.build.core=arduino:arduino
+atmega328p.build.board=atmega328
+
+
+atmega328p.menu.clock.internal8=Internal 8 MHz
+atmega328p.menu.clock.internal8.bootloader.low_fuses=0xe2
+atmega328p.menu.clock.internal8.bootloader.high_fuses=0xdb
+atmega328p.menu.clock.internal8.bootloader.extended_fuses=0x05
+atmega328p.menu.clock.internal8.build.f_cpu=8000000L
+
+atmega328p.menu.clock.external8=External 8 MHz
+atmega328p.menu.clock.external8.bootloader.low_fuses=0xff
+atmega328p.menu.clock.external8.bootloader.high_fuses=0xdb
+atmega328p.menu.clock.external8.bootloader.extended_fuses=0x05
+atmega328p.menu.clock.external8.build.f_cpu=8000000L
+
+atmega328p.menu.clock.external16=External 16 MHz
+atmega328p.menu.clock.external16.bootloader.low_fuses=0xff
+atmega328p.menu.clock.external16.bootloader.high_fuses=0xdb
+atmega328p.menu.clock.external16.bootloader.extended_fuses=0x05
+atmega328p.menu.clock.external16.build.f_cpu=16000000L
+
+# Signature: ATmega328p
+# Specs: http://www.atmel.com/devices/ATMEGA328P.aspx
+atmega328p.menu.cpu.atmega328p=ATmega328p
+atmega328p.menu.cpu.atmega328p.build.board=atmega328p
+atmega328p.menu.cpu.atmega328p.build.mcu=atmega328p
