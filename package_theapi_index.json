@@ -14,7 +14,7 @@
           "architecture": "avr",
           "version": "0.0.1",
           "category": "Contributed",
-          "url": "https://github.com/theapi/arduino_boards/theapiboards.0.0.1.zip",
+          "url": "https://github.com/theapi/arduino_boards/raw/master/theapiboards.0.0.1.zip",
           "archiveFileName": "theapiboards.0.0.1.zip",
           "checksum": "SHA-256:be24a59460d7148ecf13dd0a8946e942c2c2f812c0f200b6f6212a05187d63d2",
           "size": "707",
